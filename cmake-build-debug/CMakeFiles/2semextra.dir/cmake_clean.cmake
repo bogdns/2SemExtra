@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "2semextra"
   "2semextra.pdb"
-  "CMakeFiles/2semextra.dir/bin/matrix.cpp.o"
-  "CMakeFiles/2semextra.dir/bin/matrix.cpp.o.d"
   "CMakeFiles/2semextra.dir/main.cpp.o"
   "CMakeFiles/2semextra.dir/main.cpp.o.d"
   "CMakeFiles/2semextra.dir/rationalnum/RationalNum.cpp.o"

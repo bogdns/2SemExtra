@@ -78,12 +78,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/salimovbogdan/CLionProjects/2semextra/bin/matrix.cpp">
-			<Option target="2semextra"/>
-		</Unit>
-		<Unit filename="/Users/salimovbogdan/CLionProjects/2semextra/bin/matrix.h">
-			<Option target="2semextra"/>
-		</Unit>
 		<Unit filename="/Users/salimovbogdan/CLionProjects/2semextra/main.cpp">
 			<Option target="2semextra"/>
 		</Unit>

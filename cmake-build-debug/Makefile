@@ -129,30 +129,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semextra.dir/build.make CMakeFiles/2semextra.dir/build
 .PHONY : 2semextra/fast
 
-bin/matrix.o: bin/matrix.cpp.o
-.PHONY : bin/matrix.o
-
-# target to build an object file
-bin/matrix.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semextra.dir/build.make CMakeFiles/2semextra.dir/bin/matrix.cpp.o
-.PHONY : bin/matrix.cpp.o
-
-bin/matrix.i: bin/matrix.cpp.i
-.PHONY : bin/matrix.i
-
-# target to preprocess a source file
-bin/matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semextra.dir/build.make CMakeFiles/2semextra.dir/bin/matrix.cpp.i
-.PHONY : bin/matrix.cpp.i
-
-bin/matrix.s: bin/matrix.cpp.s
-.PHONY : bin/matrix.s
-
-# target to generate assembly for a file
-bin/matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2semextra.dir/build.make CMakeFiles/2semextra.dir/bin/matrix.cpp.s
-.PHONY : bin/matrix.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -210,9 +186,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 2semextra"
-	@echo "... bin/matrix.o"
-	@echo "... bin/matrix.i"
-	@echo "... bin/matrix.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
