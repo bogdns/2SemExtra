@@ -61,9 +61,9 @@ int find_min_col(std::vector<std::vector<RationalNum>> &arr) {
 // найти элемент с наибольшей дробной частью в последнем столбце
 int find_max_row_gomory(std::vector<std::vector<RationalNum>> &arr) {
     int index;
-    RationalNum temp(1100000);
+    RationalNum temp(-1100000); // просто большое число
     for (int i = 1; i < arr.size() - 1; ++i) {
-        if (fraction(arr[i][arr[0].size() - 1]) < temp && arr[i][arr[0].size() - 1] > RationalNum(0)) {
+        if (fraction(arr[i][arr[0].size() - 1]) > temp && arr[i][arr[0].size() - 1] > RationalNum(0)) {
             temp = fraction(arr[i][arr[0].size() - 1]);
             index = i;
         }
